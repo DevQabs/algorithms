@@ -20,14 +20,17 @@ public class NandM3 {
 
 		int[] value = new int[M];
 		nm(N, M, 0, value);
+		System.out.println(sb.toString());
 	}
+
+	private static StringBuffer sb = new StringBuffer();
 
 	private static void nm(int n, int m, int depth, int[] value) {
 		if (m == depth) {
 			for (int i = 0; i < m; i++) {
-				System.out.print(value[i] + " ");
+				sb.append(value[i] + " ");
 			}
-			System.out.println();
+			sb.append("\n");
 			return;
 		}
 
