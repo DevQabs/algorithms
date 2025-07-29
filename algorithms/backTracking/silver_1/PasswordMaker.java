@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * 암호 만들기
+ * 암호 만들기 (1759)
  *
  * https://www.acmicpc.net/problem/1759
  */
